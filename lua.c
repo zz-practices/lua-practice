@@ -14,9 +14,11 @@ int main (void)
 {
     char *ptr;
     int error;
-    lua_State *L = lua_open();  /* opens Lua */
-    luaL_openlibs(L);
     const char *prompt = "> ";
+    lua_State *L;
+
+    L = lua_open();  /* opens Lua */
+    luaL_openlibs(L);
 
     fprintf(stdout, "%s\n", LUA_RELEASE " Copyright (C) 2017 wall-e, zz ");
     while ((ptr = readline(prompt)) != NULL) {
