@@ -13,3 +13,6 @@ Minimum Lua interpreter
 
 ## Lab 3
 Load external lua script
+
+## Lab 4
+Pushes onto the stack the value of the global name.
