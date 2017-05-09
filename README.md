@@ -10,3 +10,6 @@ Quick start
 
 ## Lab 2
 Minimum Lua interpreter
+
+## Lab 3
+Load external lua script
