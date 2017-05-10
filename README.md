@@ -25,3 +25,6 @@ call C simple function in lua
 
 ## Lab 7
 call C complex function in lua
+
+## Lab 8
+call C lib in lua
