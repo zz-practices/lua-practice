@@ -18,4 +18,7 @@ Load external lua script
 Pushes onto the stack the value of the global name.
 
 ## Lab 5
-call lua function
+call lua function in C
+
+## Lab 6
+call C function in lua
