@@ -31,10 +31,10 @@ static int dofile (lua_State *L, const char *name) {
 
 static int lua_sin(lua_State *L)
 {
-    double a = lua_tonumber(L, 1);
+    double a = luaL_checknumber(L, 1);
     lua_pushnumber(L, sin(a));
 
-    double b = lua_tonumber(L, 2);
+    double b = luaL_checknumber(L, 2);
     lua_pushnumber(L, sin(b));
 
     return 2;
