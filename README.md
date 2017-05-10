@@ -21,4 +21,7 @@ Pushes onto the stack the value of the global name.
 call lua function in C
 
 ## Lab 6
-call C function in lua
+call C simple function in lua
+
+## Lab 7
+call C complex function in lua
